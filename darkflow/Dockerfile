@@ -8,7 +8,7 @@
 # Copyright (c) 2017 Loreto Parisi - https://github.com/loretoparisi/docker
 #
 
-FROM tensorflow/tensorflow:latest-gpu-py3
+FROM tensorflow/tensorflow:1.5.0-gpu-py3
 
 MAINTAINER Loreto Parisi loretoparisi@gmail.com
 
