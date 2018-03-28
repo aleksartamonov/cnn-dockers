@@ -136,7 +136,7 @@ RUN \
 # FIXME: copy yolo.cfg to cfg/
 RUN \
     cd darkflow/ && \
-    cp bin/yolo.cfg cfg/
+    cp bin/yolov2.cfg cfg/
 
 CMD nvidia-smi -q
 RUN python3 -c "import Cython; print(Cython.__version__)"
