@@ -126,7 +126,7 @@ RUN \
 
 RUN cd bin \
 	wget http://pjreddie.com/media/files/yolov2.weights >/dev/null 2>&1 && \
-    wget http://pjreddie.com/media/files/tiny-yolov2-voc.weights >/dev/null 2>&1 && \
+    wget http://pjreddie.com/media/files/yolov2-tiny-voc.weights >/dev/null 2>&1 && \
     wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov2.cfg >/dev/null 2>&1 && \
     cd ..
 
