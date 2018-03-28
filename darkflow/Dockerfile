@@ -122,7 +122,9 @@ RUN \
 # darknet rnns
 RUN \
     cd darkflow && \
-    mkdir bin && cd bin/ && \
+    mkdir bin && cd bin/ &&
+
+RUN cd darkflow/bin \
 	wget http://pjreddie.com/media/files/yolo.weights >/dev/null 2>&1 && \
     wget http://pjreddie.com/media/files/tiny-yolo-voc.weights >/dev/null 2>&1 && \
     wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolo.cfg >/dev/null 2>&1 && \
