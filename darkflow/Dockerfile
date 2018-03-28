@@ -125,9 +125,9 @@ RUN \
     mkdir bin
 
 RUN cd bin \
-	wget http://pjreddie.com/media/files/yolo.weights >/dev/null 2>&1 && \
-    wget http://pjreddie.com/media/files/tiny-yolo-voc.weights >/dev/null 2>&1 && \
-    wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolo.cfg >/dev/null 2>&1 && \
+	wget http://pjreddie.com/media/files/yolov2.weights >/dev/null 2>&1 && \
+    wget http://pjreddie.com/media/files/tiny-yolov2-voc.weights >/dev/null 2>&1 && \
+    wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov2.cfg >/dev/null 2>&1 && \
     cd ..
 
 RUN \
