@@ -141,6 +141,6 @@ RUN \
 CMD nvidia-smi -q
 RUN python3 -c "import Cython; print(Cython.__version__)"
 RUN python3 -c "import cv2; print(cv2.__version__)"
-RUN echo "./flow3 --model bin/yolo.cfg --load bin/yolo.weights --demo samples/video_1.avi --gpu .8 --saveVideo"
+RUN echo "./flow3 --model bin/yolov2.cfg --load bin/yolov2.weights --demo samples/video_1.avi --gpu .8 --saveVideo"
 CMD ["bash"]
 
